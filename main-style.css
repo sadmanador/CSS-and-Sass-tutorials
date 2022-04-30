@@ -55,21 +55,54 @@ background-clip */
     border: inherit;
 }
 
-/* gradient 
+/* gradient
 2 to many colors can be used with gradient*/
 /* linear-gradient: left,right,top,bottom. not necessary should be vorizontal of vertical, can be angled, also 360degree can be applied
 repeated-linear-gradient is for repeating colors*/
+.linear-gradient-default {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(red, Yellow, green);
+}
+
+.linear-gradient-side {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right, red, Yellow, green);
+}
+
+.linear-gradient-angel {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, red, Yellow, green);
+}
+
+.linear-gradient-degree {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(180deg, red, Yellow, green);
+}
 
 /* radial-gradeint define by its center
 radial-gradient support amount of color in %
 default radialGradient is ellipse, but can be set to circle 
 redail-gradient also supports repeating feature*/
+.linear-radial {
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(red, Yellow);
+}
 
 /* conic-gradient
 conic-gradient rotate around center in parifery
 conic-gradient also support degree
 conic-gradient with 50% border-radius to make the shape circular
 conic-gradient dose not blend, so with :defined degree it looks like pie chart */
+.linear-conic {
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(red, Yellow);
+}
 
 
 /* shadow effect
