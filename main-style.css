@@ -54,3 +54,36 @@ background-clip */
     color: inherit;
     border: inherit;
 }
+
+/* gradient 
+2 to many colors can be used with gradient*/
+/* linear-gradient: left,right,top,bottom. not necessary should be vorizontal of vertical, can be angled, also 360degree can be applied
+repeated-linear-gradient is for repeating colors*/
+
+/* radial-gradeint define by its center
+radial-gradient support amount of color in %
+default radialGradient is ellipse, but can be set to circle 
+redail-gradient also supports repeating feature*/
+
+/* conic-gradient
+conic-gradient rotate around center in parifery
+conic-gradient also support degree
+conic-gradient with 50% border-radius to make the shape circular
+conic-gradient dose not blend, so with :defined degree it looks like pie chart */
+
+
+/* shadow effect
+default is black
+two types: text shadow and box shadow */
+
+/* text-shadow
+first value is for :left
+second one is for bottom
+third one is for blur, when blur effect is set to 0, shadows are solid
+forth one is for color name
+minus value for first is right and minus of second value is top
+multiple shadow values are separated with comma */
+
+/* box shadow
+unlike text-shadow the forth value for box shadow is spread, when minus decreces
+after color name inset paramaeter indicate shadow inside the box */
