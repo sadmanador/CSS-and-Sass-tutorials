@@ -3,8 +3,11 @@
     border-radius: 25px;
 }
 .sample-img-2 {
-    border-radius: 150px;
+    border-radius: 150px; 
 }
+/* 50% will also work */
+
+
 .sample-img-3 {
     border-radius: 0 150px 0 150px;
 }
@@ -61,6 +64,9 @@ background-clip */
 repeated-linear-gradient is for repeating colors*/
 .gradient {
     color: white;
+}
+#gradient-heading{
+    color: black;
 }
 .linear-gradient-default {
     height: 300px;
@@ -119,6 +125,9 @@ third one is for blur, when blur effect is set to 0, shadows are solid
 forth one is for color name
 minus value for first is right and minus of second value is top
 multiple shadow values are separated with comma */
+.shadow{
+
+}
 .text-shadow {
     text-shadow: 5px 5px 5px gray;
 }
@@ -140,3 +149,5 @@ after color name inset paramaeter indicate shadow inside the box */
     background-color: blueviolet;
     box-shadow: 10px 10px 20px 15px red inset;
 }
+
+/* text-effect */
