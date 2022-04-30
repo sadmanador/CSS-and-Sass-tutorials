@@ -14,3 +14,15 @@
 
 /* border img */
 /* with the help of border-image property an img can also be set as border */
+
+.borderimg {
+    border: 25px solid transparent;
+    padding: 20px;
+    border-image: url(star.png) 70 round;
+}
+
+/* multiple backgroungs */
+/* background-size
+background-origin
+background-clip */
+
