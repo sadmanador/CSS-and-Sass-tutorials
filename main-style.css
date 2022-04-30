@@ -59,6 +59,9 @@ background-clip */
 2 to many colors can be used with gradient*/
 /* linear-gradient: left,right,top,bottom. not necessary should be vorizontal of vertical, can be angled, also 360degree can be applied
 repeated-linear-gradient is for repeating colors*/
+.gradient {
+    color: white;
+}
 .linear-gradient-default {
     height: 300px;
     width: 300px;
@@ -87,7 +90,7 @@ repeated-linear-gradient is for repeating colors*/
 radial-gradient support amount of color in %
 default radialGradient is ellipse, but can be set to circle 
 redail-gradient also supports repeating feature*/
-.linear-radial {
+.radial-gradient {
     height: 300px;
     width: 300px;
     background-image: radial-gradient(red, Yellow);
@@ -98,7 +101,7 @@ conic-gradient rotate around center in parifery
 conic-gradient also support degree
 conic-gradient with 50% border-radius to make the shape circular
 conic-gradient dose not blend, so with :defined degree it looks like pie chart */
-.linear-conic {
+.conic-gradient {
     height: 300px;
     width: 300px;
     background-image: conic-gradient(red, Yellow);
@@ -116,7 +119,24 @@ third one is for blur, when blur effect is set to 0, shadows are solid
 forth one is for color name
 minus value for first is right and minus of second value is top
 multiple shadow values are separated with comma */
+.text-shadow {
+    text-shadow: 5px 5px 5px gray;
+}
 
 /* box shadow
 unlike text-shadow the forth value for box shadow is spread, when minus decreces
 after color name inset paramaeter indicate shadow inside the box */
+
+.box-shadow {
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 20px 15px red, -10px -10px 20px 15px blue;
+}
+
+.inset-shadow {
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 20px 15px red inset;
+}
