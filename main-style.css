@@ -1,0 +1,16 @@
+/* border redius */
+.sample-img-1 {
+    border-radius: 25px;
+}
+.sample-img-2 {
+    border-radius: 150px;
+}
+.sample-img-3 {
+    border-radius: 0 150px 0 150px;
+}
+.sample-img-4 {
+    border-radius: 150px 0;
+}
+
+/* border img */
+/* with the help of border-image property an img can also be set as border */
