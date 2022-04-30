@@ -26,3 +26,31 @@
 background-origin
 background-clip */
 
+.multi-backgroung {
+    background-image: url(sample.png), url(star.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 20px;
+}
+
+
+/* color keywords 1. transparent 2.currentcolor 3.inherit */
+.transparent {
+    border: 5px solid black;
+    background-color: transparent;
+}
+
+.currentcolor {
+    color: purple;
+    border: 10px solid currentColor;
+}
+
+.inherit {
+    color: blueviolet;
+    border: 3px dotted blue;
+}
+
+.inherit-child {
+    color: inherit;
+    border: inherit;
+}
