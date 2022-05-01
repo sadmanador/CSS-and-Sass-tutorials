@@ -151,3 +151,55 @@ after color name inset paramaeter indicate shadow inside the box */
 }
 
 /* text-effect */
+/* text-overflow */
+.text-overflow-clip {
+    font-size: 22px;
+    border: 2px solid rgb(0, 0, 0);
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.text-overflow-ellipsis {
+    font-size: 22px;
+    border: 2px solid rgb(0, 0, 0);
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.text-overflow-ellipsis:hover {
+    overflow: visible;
+}
+div.text-overflow-clip:hover {
+    overflow: visible;
+}
+
+/* word-wraped */
+.word-wrap-1{
+    width: 100px;
+    border: 2px solid #000000;
+}
+.word-wrap-2{
+    width: 100px;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+}
+
+.word-break-1 {
+    border: 2px solid #000000;
+    width: 400px;
+    word-break: break-all;
+}
+.word-break-2 {
+    border: 2px solid #000000;
+    width: 400px;
+    word-break: break-all;
+}
+.vertical-1 {
+    writing-mode: vertical-rl;
+}
+.vertical-2 {
+    writing-mode: vertical-lr;
+}
