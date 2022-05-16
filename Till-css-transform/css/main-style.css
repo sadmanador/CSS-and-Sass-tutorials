@@ -21,7 +21,7 @@
 .borderimg {
     border: 25px solid transparent;
     padding: 20px;
-    border-image: url(star.png) 70 round;
+    border-image: url(../images/star.png) 70 round;
 }
 
 /* multiple backgroungs */
@@ -30,7 +30,7 @@ background-origin
 background-clip */
 
 .multi-backgroung {
-    background-image: url(sample.png), url(star.png);
+    background-image: url(../images/sample.png), url(../images/star.png);
     background-position: right bottom, left top;
     background-repeat: no-repeat, no-repeat;
     padding: 20px;
@@ -103,7 +103,7 @@ redail-gradient also supports repeating feature*/
 }
 
 /* conic-gradient
-conic-gradient rotate around center in parifery
+conic-gradient rotate around center in pacifiers
 conic-gradient also support degree
 conic-gradient with 50% border-radius to make the shape circular
 conic-gradient dose not blend, so with :defined degree it looks like pie chart */

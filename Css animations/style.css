@@ -9,31 +9,26 @@
   background-color: red;
   height: 100px;
   width: 100px;
-  -webkit-transform: translate(100px, 50px);
-          transform: translate(100px, 50px);
+  transform: translate(100px, 50px);
 }
 
 .rotate1 {
   background-color: red;
   height: 100px;
   width: 100px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .rotate2 {
   background-color: red;
   height: 100px;
   width: 100px;
-  -webkit-transform: rotate(-60deg);
-          transform: rotate(-60deg);
+  transform: rotate(-60deg);
 }
 
 .scale {
   background-color: red;
   height: 100px;
   width: 100px;
-  -webkit-transform: scale();
-          transform: scale();
-}
-/*# sourceMappingURL=style.css.map */
+  transform: scale();
+}/*# sourceMappingURL=style.css.map */
